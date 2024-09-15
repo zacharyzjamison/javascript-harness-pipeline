@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_zacharyzjamison_javascript_harness_pipeline_1726438715005-push-trigger-input-set
+  identifier: Build_zacharyzjamison_javascript_harness_pipeline_1726438715005pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: javascript_project
+  pipeline:
+    identifier: Build_zacharyzjamison_javascript_harness_pipeline_1726438715005
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
